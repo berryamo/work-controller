@@ -1,5 +1,6 @@
 import {
     Links,
+    LiveReload,
     Meta,
     Outlet,
     Scripts,
@@ -21,8 +22,8 @@ import {
           <Outlet />
   
           <Scripts />
+          <LiveReload />
         </body>
       </html>
     );
   }
-  
